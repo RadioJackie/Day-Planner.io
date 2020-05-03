@@ -15,4 +15,4 @@ $(document).ready(function() {
       nowHour12 = 1;
 })
 
-$(".saveBtn").on("click", function(){})
+
