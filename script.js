@@ -15,15 +15,4 @@ $(document).ready(function() {
       nowHour12 = 1;
 })
 
-$(".saveBtn").on("click", function(){
-  let $saveBtn = $('<i>');
-    $saveBtn.attr('class',"bi bi-shield-lock-fill");
-})
-
-let $dailyPlanSpn = $('<input>');
-
-$dailyPlanSpn.attr('id',`input-${index}`);
-$dailyPlanSpn.attr('hour-index',index);
-$dailyPlanSpn.attr('type','text');
-$dailyPlanSpn.attr('class','dailyPlan');
-$dailyPlanSpn.val( planTextArr[index] );
+$(".saveBtn").on("click", function(){})
