@@ -15,4 +15,6 @@ $(document).ready(function() {
       nowHour12 = 1;
 })
 
-
+$("#icon").on("click", function(){
+  //alert("Working")
+})
